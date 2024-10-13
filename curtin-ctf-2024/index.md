@@ -391,7 +391,7 @@ print(m.decode("utf-8", errors="ignore"))
 
 <div style="text-align: center">
 
-# FLAG HERE, TODO RUN IN DEV ENV
+``` CURTIN_CTF{1s_7h15_50m37h1ng_c10s3_70_m4g1c?} ```
 </div>
 
 ## RSA 2
@@ -437,7 +437,7 @@ print(decrypted_message)
 
 <div style="text-align: center">
 
-# FLAG HERE, TODO RUN IN DEV ENV
+``` CURTIN_CTF{4_m4gn1fy1ng_gl455_w0n7_b3_n33d3d_for_sur3} ```
 </div>
 
 ## Dance of the stream
