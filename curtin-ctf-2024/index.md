@@ -220,6 +220,50 @@ Which, narrowed it down to [[here]](https://www.google.com/maps/@34.090877,-118.
 ` CURTIN_CTF{Odessa_Grocery} `
 </div>
 
+## Crash Airdrome Part 1
+```
+A: What was the engine model of the aircraft?
+
+B: When was the aircraft manufactured? (DD-MM-YYYY)
+
+Flag format: CURTIN_CTF{A_B}
+```
+``` Files: crash_at_the_airdrome.png ```
+<div style="text-align: center">
+
+` CURTIN_CTF{CFM56-7B24E_19-02-2013} `
+</div>
+
+## Crash Airdrome Part 2
+```
+When was the first flight of this aircraft model?
+
+Flag Format: CURTIN_CTF{DD_MM_YYYY}
+```
+<div style="text-align: center">
+
+` CURTIN_CTF{31_07_1997} `
+</div>
+
+## Crash Airdrome Part 3
+```
+A: Distance between the airports?
+
+NOTE: Answer includes digits only (km). Ignore decimal values.
+
+B: What was the name of the PIC?
+
+C: What was the part number of the aircraft's Terrain Awareness and Alerting System?
+
+Flag format: CURTIN_CTF{A_BFirstName_BLastName_C}
+```
+<div style="text-align: center">
+
+` CURTIN_CTF{861_Mahlup_Gozali_965-1690-055}
+`
+</div>
+
+
 
 # Crypto
 ## RSA 1
