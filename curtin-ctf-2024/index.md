@@ -93,6 +93,12 @@ But this is where the description actually helps for once, `be careful not to le
 
 Doing a quick `ctrl+a` `ctrl+c` from the pdf into a text editor, we can replace `.` with 0 and `-` as 1.
 
+and then lining them up in the group of 8, and translating it back to ASCII/UTF-8 would give us the flag:
+<div style="text-align: center">
+
+``` CURTIN_CTF{UNDERST4NDING_WH1TE_SP4CES_IS_IMP0RT4NT} ```
+</div>
+
 ## CrazySignal
 ```
 Lost in transmission, a familiar code awaits discovery. But this one wasn't sent the usual way—it’s hidden in a broadcast, distorted by a robotic signal. To recover the message, you’ll need to tune in carefully and decode what’s hidden in plain sight. Can you crack the transmission and reveal the secret
@@ -259,10 +265,66 @@ Flag format: CURTIN_CTF{A_BFirstName_BLastName_C}
 ```
 <div style="text-align: center">
 
-` CURTIN_CTF{861_Mahlup_Gozali_965-1690-055}
-`
+` CURTIN_CTF{861_Mahlup_Gozali_965-1690-055} `
 </div>
 
+## Divulger Part 1
+```
+A person with the online alias 'greekguy' had leaked details of Turkish Phone Number IDs
+
+What email was the person using?
+```
+
+A quick search on google for `intext: greekguy breachforum` leads us to 
+<div style="text-align: center">
+<img src="imgs/greekguy_bf.png">
+</div>
+
+From there, I found a tweet on twitter regarding him.
+<div style="text-align: center">
+<img src="imgs/greekguy_leaked.png">
+</div>
+
+This leads us to the website, which is where we can find about his online info.
+<div style="text-align: center">
+<img src="imgs/greekguy_mail.png">
+</div>
+
+<div style="text-align: center">
+
+``` CURTIN_CTF{kpopayda@gmail.com} ```
+</div>
+
+## Divulger Part 2
+```
+We have an intel that the same person had "Self-banned" himself.
+
+When did this happened?
+
+Format: CURTIN_CTF{DD_MM_YYYY}
+```
+
+From the same website we get before, we can get their banned date.
+
+Which is: `1669612052`
+<div style="text-align: center">
+<img src="imgs/greekguy_banned.png">
+</div>
+
+Converting the time from UNIX time to DD_MM_YY would give us:
+<div style="text-align: center">
+
+``` CURTIN_CTF{28/11/2022} ```
+</div>
+
+## Divulger Part 3
+```
+It seems greekguy was communicating with Stranger020.
+
+What email was Stranger020 using? When did the person register on the forum?
+
+Format: CURTIN_CTF{email_dd_mm_yyyy}
+```
 
 
 # Crypto
