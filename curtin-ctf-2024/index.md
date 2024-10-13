@@ -91,7 +91,7 @@ Which looks like a bunch of morse code, but we tried that and it doesn't work.
 
 But this is where the description actually helps for once, `be careful not to let appearances deceive you`. So let's try reading it as binary.
 
-Doing a quick `ctrl+a` `ctrl+c` from the pdf into a text editor, we can replace `.` with 1 and `-` as 0.
+Doing a quick `ctrl+a` `ctrl+c` from the pdf into a text editor, we can replace `.` with 0 and `-` as 1.
 
 ## CrazySignal
 ```
