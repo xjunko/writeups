@@ -1125,3 +1125,25 @@ By employing a basic jinja payload to the textbox, we can get the flag:
 
 `  CURTIN_CTF{t3mpl4t3s_ar3_e4sy_t0_cr4ck}  `
 </div>
+
+## Easy Login
+```
+Hey, found this super secure login page. Seems like the database admin forgot to do some sanity checks.
+```
+<div style="text-align: center">
+<img src="imgs/easy_login.png">
+</div>
+
+From the description, we might be able to use SQL payload injection because it mentioned the databasa admin `forgot to do some sanity checks`.
+
+By using `admin' or '1'='1'` as the username and password.
+<div style="text-align: center">
+<img src="imgs/easy_login_login.png">
+</div>
+
+We can get the flag which is:
+<div style="text-align: center">
+<img src="imgs/easy_flag.png">
+
+``` CURTIN_CTF{sql_1nj3nt1on_v1ct0ry} ```
+</div>
