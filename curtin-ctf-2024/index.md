@@ -157,7 +157,7 @@ The file, like the name suggests, is a video of a Tesla car being on fire. Takin
 <div style="text-align: center">
 <img src="imgs/car_on_fire_1.png">
 
-` CURTIN_CTF{Michael_Norris} `
+` CURTIN_CTF{Michael_Morris} `
 </div>
 
 ## Car on Fire Part 2
